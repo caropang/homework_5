@@ -424,6 +424,8 @@ body {
 }
 
 #submit-message {
+    margin-top: 12px;
+    margin-bottom: 10vh;
     background: #4A4A4A;
     color: white;
     padding: 6px;
