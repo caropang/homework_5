@@ -294,9 +294,37 @@ body {
     color: #828282;
 }
 
-#item-image {
+.product-images {
+    width: 35vw;
+}
+
+.main-item-img {
     width: 35vw;
     height: 35vw;
+    object-fit: cover;
+}
+
+.other-item-images {
+    display:flex;
+    justify-content: space-evenly;
+}
+
+.image1 {
+    width: 27%;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.image2 {
+    width: 27%;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.image3 {
+    width: 27%;
+    aspect-ratio: 1;
+    border-radius: 50%;
     object-fit: cover;
 }
 
