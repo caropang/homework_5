@@ -116,7 +116,7 @@ body {
 .front-display-info {
     position: absolute;
     margin-left: 10vw;
-    top: 40%;
+    top: 45%;
     z-index: 3;
 }
 
@@ -133,7 +133,7 @@ body {
     padding: 10px;
     padding-left: 36px;
     padding-right: 36px;
-    top: 70%;
+    top: 75%;
     border-radius: 50px;
     background:#FFE195;
     border: 1px solid #fedfb1;
@@ -295,6 +295,10 @@ body {
     flex-direction: column;
 }
 
+.item-price {
+    margin: 0px;
+}
+
 .order-detail-label {
     font-size: 18px;
     color: #828282;
@@ -441,4 +445,33 @@ body {
     font-family: var(--font-family);
     font-size: 16px;
     border: none;
+}
+
+/* ABOUT US PAGE */
+#bakery-img {
+    width: 100%;
+    aspect-ratio: 2.8;
+    object-fit: cover;
+}
+
+#about-us-wrapper {
+    font-family: var(--font-family);
+}
+
+#about-us-wrapper {
+    margin-left: 20vw;
+    margin-right: 20vw;
+    margin-bottom: 20vh;
+    font-family: var(--font-family);
+}
+
+#about-us-header {
+    margin: 0px;
+    margin-top: 3vh;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.about-us-text {
+    margin-left: 10%;
 }
